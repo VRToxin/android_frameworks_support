@@ -92,6 +92,14 @@ public abstract class AppCompatDelegate {
     public static final int MODE_NIGHT_YES = 1;
 
     /**
+     * Mode which means to always use night mode, and therefore use {@code night} qualified
+     * resources, regardless of the time.
+     *
+     * @see #setNightMode(int)
+     */
+    public static final int MODE_NIGHT_BLACKOUT = 3;
+
+    /**
      * Mode which means to use night mode when it is determined that it is night or not..
      *
      * <p>The calculation used to determine whether it is night or not makes use of the location
