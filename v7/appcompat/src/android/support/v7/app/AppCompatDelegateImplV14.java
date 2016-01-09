@@ -110,8 +110,8 @@ class AppCompatDelegateImplV14 extends AppCompatDelegateImplV11 {
             case MODE_NIGHT_BLACKOUT:
                 newNightMode = Configuration.UI_MODE_NIGHT_BLACKOUT;
                 break;
-            case MODE_NIGHT_CUSTOM_1:
-                newNightMode = Configuration.UI_MODE_NIGHT_CUSTOM_1;
+            case MODE_NIGHT_RANDOM:
+                newNightMode = Configuration.UI_MODE_NIGHT_RANDOM;
                 break;
             case MODE_NIGHT_CUSTOM_2:
                 newNightMode = Configuration.UI_MODE_NIGHT_CUSTOM_2;

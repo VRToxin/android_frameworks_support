@@ -105,7 +105,7 @@ public abstract class AppCompatDelegate {
      *
      * @see #setNightMode(int)
      */
-    public static final int MODE_NIGHT_CUSTOM_1 = 4;
+    public static final int MODE_NIGHT_RANDOM = 4;
 
     /**
      * Mode which means to always use night mode, and therefore use {@code night} qualified
