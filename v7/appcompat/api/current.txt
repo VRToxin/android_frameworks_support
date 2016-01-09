@@ -277,6 +277,10 @@ package android.support.v7.app {
     field public static final int MODE_NIGHT_NO = 0; // 0x0
     field public static final int MODE_NIGHT_YES = 1; // 0x1
     field public static final int MODE_NIGHT_BLACKOUT = 3; // 0x3
+    field public static final int MODE_NIGHT_CUSTOM_1 = 4; // 0x4
+    field public static final int MODE_NIGHT_CUSTOM_2 = 5; // 0x5
+    field public static final int MODE_NIGHT_CUSTOM_3 = 6; // 0x6
+    field public static final int MODE_NIGHT_CUSTOM_4 = 7; // 0x7
   }
 
   public class AppCompatDialog extends android.app.Dialog implements android.support.v7.app.AppCompatCallback {
