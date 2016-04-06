@@ -378,6 +378,7 @@ package android.support.v7.appcompat {
     field public static int alertDialogCenterButtons;
     field public static int alertDialogStyle;
     field public static int alertDialogTheme;
+    field public static int allowStacking;
     field public static int arrowHeadLength;
     field public static int arrowShaftLength;
     field public static int autoCompleteTextViewStyle;
@@ -445,6 +446,7 @@ package android.support.v7.appcompat {
     field public static int homeLayout;
     field public static int icon;
     field public static int iconifiedByDefault;
+    field public static int imageButtonStyle;
     field public static int indeterminateProgressStyle;
     field public static int initialActivityCount;
     field public static int isLightTheme;
@@ -487,6 +489,7 @@ package android.support.v7.appcompat {
     field public static int searchHintIcon;
     field public static int searchIcon;
     field public static int searchViewStyle;
+    field public static int seekBarStyle;
     field public static int selectableItemBackground;
     field public static int selectableItemBackgroundBorderless;
     field public static int showAsAction;
@@ -550,6 +553,7 @@ package android.support.v7.appcompat {
     field public static int abc_action_bar_embed_tabs;
     field public static int abc_action_bar_embed_tabs_pre_jb;
     field public static int abc_action_bar_expanded_action_views_exclusive;
+    field public static int abc_allow_stacked_button_bar;
     field public static int abc_config_actionMenuItemAllCaps;
     field public static int abc_config_allowActionMenuItemTextWithIcon;
     field public static int abc_config_closeDialogWhenTouchOutside;
@@ -656,6 +660,10 @@ package android.support.v7.appcompat {
     field public static int abc_control_corner_material;
     field public static int abc_control_inset_material;
     field public static int abc_control_padding_material;
+    field public static int abc_dialog_fixed_height_major;
+    field public static int abc_dialog_fixed_height_minor;
+    field public static int abc_dialog_fixed_width_major;
+    field public static int abc_dialog_fixed_width_minor;
     field public static int abc_dialog_list_padding_vertical_material;
     field public static int abc_dialog_min_width_major;
     field public static int abc_dialog_min_width_minor;
@@ -674,6 +682,9 @@ package android.support.v7.appcompat {
     field public static int abc_panel_menu_list_width;
     field public static int abc_search_view_preferred_width;
     field public static int abc_search_view_text_min_width;
+    field public static int abc_seekbar_track_background_height_material;
+    field public static int abc_seekbar_track_progress_height_material;
+    field public static int abc_select_dialog_padding_start_material;
     field public static int abc_switch_padding;
     field public static int abc_text_size_body_1_material;
     field public static int abc_text_size_body_2_material;
@@ -692,10 +703,6 @@ package android.support.v7.appcompat {
     field public static int abc_text_size_subtitle_material_toolbar;
     field public static int abc_text_size_title_material;
     field public static int abc_text_size_title_material_toolbar;
-    field public static int dialog_fixed_height_major;
-    field public static int dialog_fixed_height_minor;
-    field public static int dialog_fixed_width_major;
-    field public static int dialog_fixed_width_minor;
     field public static int disabled_alpha_material_dark;
     field public static int disabled_alpha_material_light;
     field public static int highlight_alpha_material_colored;
@@ -758,6 +765,13 @@ package android.support.v7.appcompat {
     field public static int abc_menu_hardkey_panel_mtrl_mult;
     field public static int abc_popup_background_mtrl_mult;
     field public static int abc_ratingbar_full_material;
+    field public static int abc_scrubber_control_off_mtrl_alpha;
+    field public static int abc_scrubber_control_to_pressed_mtrl_000;
+    field public static int abc_scrubber_control_to_pressed_mtrl_005;
+    field public static int abc_scrubber_primary_mtrl_alpha;
+    field public static int abc_scrubber_track_mtrl_alpha;
+    field public static int abc_seekbar_thumb_material;
+    field public static int abc_seekbar_track_material;
     field public static int abc_spinner_mtrl_am_alpha;
     field public static int abc_spinner_textfield_background_material;
     field public static int abc_switch_thumb_material;
@@ -831,6 +845,8 @@ package android.support.v7.appcompat {
     field public static int progress_horizontal;
     field public static int radio;
     field public static int screen;
+    field public static int scrollIndicatorDown;
+    field public static int scrollIndicatorUp;
     field public static int scrollView;
     field public static int search_badge;
     field public static int search_bar;
@@ -847,6 +863,7 @@ package android.support.v7.appcompat {
     field public static int showCustom;
     field public static int showHome;
     field public static int showTitle;
+    field public static int spacer;
     field public static int split_action_bar;
     field public static int src_atop;
     field public static int src_in;
@@ -887,6 +904,7 @@ package android.support.v7.appcompat {
     field public static int abc_action_mode_close_item_material;
     field public static int abc_activity_chooser_view;
     field public static int abc_activity_chooser_view_list_item;
+    field public static int abc_alert_dialog_button_bar_material;
     field public static int abc_alert_dialog_material;
     field public static int abc_dialog_title_material;
     field public static int abc_expanded_menu_layout;
@@ -926,6 +944,8 @@ package android.support.v7.appcompat {
     field public static int abc_action_mode_done;
     field public static int abc_activity_chooser_view_see_all;
     field public static int abc_activitychooserview_choose_application;
+    field public static int abc_capital_off;
+    field public static int abc_capital_on;
     field public static int abc_search_hint;
     field public static int abc_searchview_description_clear;
     field public static int abc_searchview_description_query;
@@ -1057,6 +1077,7 @@ package android.support.v7.appcompat {
     field public static int Base_Widget_AppCompat_DrawerArrowToggle_Common;
     field public static int Base_Widget_AppCompat_DropDownItem_Spinner;
     field public static int Base_Widget_AppCompat_EditText;
+    field public static int Base_Widget_AppCompat_ImageButton;
     field public static int Base_Widget_AppCompat_Light_ActionBar;
     field public static int Base_Widget_AppCompat_Light_ActionBar_Solid;
     field public static int Base_Widget_AppCompat_Light_ActionBar_TabBar;
@@ -1077,6 +1098,7 @@ package android.support.v7.appcompat {
     field public static int Base_Widget_AppCompat_RatingBar;
     field public static int Base_Widget_AppCompat_SearchView;
     field public static int Base_Widget_AppCompat_SearchView_ActionBar;
+    field public static int Base_Widget_AppCompat_SeekBar;
     field public static int Base_Widget_AppCompat_Spinner;
     field public static int Base_Widget_AppCompat_Spinner_Underlined;
     field public static int Base_Widget_AppCompat_TextView_SpinnerItem;
@@ -1094,7 +1116,6 @@ package android.support.v7.appcompat {
     field public static int Platform_Widget_AppCompat_Spinner;
     field public static int RtlOverlay_DialogWindowTitle_AppCompat;
     field public static int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-    field public static int RtlOverlay_Widget_AppCompat_ActionButton_Overflow;
     field public static int RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
     field public static int RtlOverlay_Widget_AppCompat_PopupMenuItem;
     field public static int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
@@ -1105,6 +1126,8 @@ package android.support.v7.appcompat {
     field public static int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
     field public static int RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
     field public static int RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+    field public static int RtlUnderlay_Widget_AppCompat_ActionButton;
+    field public static int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
     field public static int TextAppearance_AppCompat;
     field public static int TextAppearance_AppCompat_Body1;
     field public static int TextAppearance_AppCompat_Body2;
@@ -1208,6 +1231,7 @@ package android.support.v7.appcompat {
     field public static int Widget_AppCompat_DrawerArrowToggle;
     field public static int Widget_AppCompat_DropDownItem_Spinner;
     field public static int Widget_AppCompat_EditText;
+    field public static int Widget_AppCompat_ImageButton;
     field public static int Widget_AppCompat_Light_ActionBar;
     field public static int Widget_AppCompat_Light_ActionBar_Solid;
     field public static int Widget_AppCompat_Light_ActionBar_Solid_Inverse;
@@ -1242,6 +1266,7 @@ package android.support.v7.appcompat {
     field public static int Widget_AppCompat_RatingBar;
     field public static int Widget_AppCompat_SearchView;
     field public static int Widget_AppCompat_SearchView_ActionBar;
+    field public static int Widget_AppCompat_SeekBar;
     field public static int Widget_AppCompat_Spinner;
     field public static int Widget_AppCompat_Spinner_DropDown;
     field public static int Widget_AppCompat_Spinner_DropDown_ActionBar;
@@ -1306,6 +1331,7 @@ package android.support.v7.appcompat {
     field public static final int[] AppCompatTextView;
     field public static int AppCompatTextView_android_textAppearance;
     field public static int AppCompatTextView_textAllCaps;
+    field public static int ButtonBarLayout_allowStacking;
     field public static final int[] CompoundButton;
     field public static int CompoundButton_android_button;
     field public static int CompoundButton_buttonTint;
@@ -1396,6 +1422,7 @@ package android.support.v7.appcompat {
     field public static int SearchView_voiceIcon;
     field public static final int[] Spinner;
     field public static int Spinner_android_dropDownWidth;
+    field public static int Spinner_android_entries;
     field public static int Spinner_android_popupBackground;
     field public static int Spinner_android_prompt;
     field public static int Spinner_popupTheme;
@@ -1411,6 +1438,10 @@ package android.support.v7.appcompat {
     field public static int SwitchCompat_thumbTextPadding;
     field public static int SwitchCompat_track;
     field public static final int[] TextAppearance;
+    field public static int TextAppearance_android_shadowColor;
+    field public static int TextAppearance_android_shadowDx;
+    field public static int TextAppearance_android_shadowDy;
+    field public static int TextAppearance_android_shadowRadius;
     field public static int TextAppearance_android_textColor;
     field public static int TextAppearance_android_textSize;
     field public static int TextAppearance_android_textStyle;
@@ -1484,6 +1515,7 @@ package android.support.v7.appcompat {
     field public static int Theme_editTextColor;
     field public static int Theme_editTextStyle;
     field public static int Theme_homeAsUpIndicator;
+    field public static int Theme_imageButtonStyle;
     field public static int Theme_listChoiceBackgroundIndicator;
     field public static int Theme_listDividerAlertDialog;
     field public static int Theme_listPopupWindowStyle;
@@ -1500,6 +1532,7 @@ package android.support.v7.appcompat {
     field public static int Theme_radioButtonStyle;
     field public static int Theme_ratingBarStyle;
     field public static int Theme_searchViewStyle;
+    field public static int Theme_seekBarStyle;
     field public static int Theme_selectableItemBackground;
     field public static int Theme_selectableItemBackgroundBorderless;
     field public static int Theme_spinnerDropDownItemStyle;
@@ -1582,6 +1615,7 @@ package android.support.v7.graphics.drawable {
     method public int getDirection();
     method public float getGapSize();
     method public int getOpacity();
+    method public final android.graphics.Paint getPaint();
     method public float getProgress();
     method public boolean isSpinEnabled();
     method public void setAlpha(int);
@@ -1707,6 +1741,18 @@ package android.support.v7.widget {
     ctor public AppCompatEditText(android.content.Context, android.util.AttributeSet, int);
   }
 
+  public class AppCompatImageButton extends android.widget.ImageButton {
+    ctor public AppCompatImageButton(android.content.Context);
+    ctor public AppCompatImageButton(android.content.Context, android.util.AttributeSet);
+    ctor public AppCompatImageButton(android.content.Context, android.util.AttributeSet, int);
+  }
+
+  public class AppCompatImageView extends android.widget.ImageView {
+    ctor public AppCompatImageView(android.content.Context);
+    ctor public AppCompatImageView(android.content.Context, android.util.AttributeSet);
+    ctor public AppCompatImageView(android.content.Context, android.util.AttributeSet, int);
+  }
+
   public class AppCompatMultiAutoCompleteTextView extends android.widget.MultiAutoCompleteTextView {
     ctor public AppCompatMultiAutoCompleteTextView(android.content.Context);
     ctor public AppCompatMultiAutoCompleteTextView(android.content.Context, android.util.AttributeSet);
@@ -1723,6 +1769,12 @@ package android.support.v7.widget {
     ctor public AppCompatRatingBar(android.content.Context);
     ctor public AppCompatRatingBar(android.content.Context, android.util.AttributeSet);
     ctor public AppCompatRatingBar(android.content.Context, android.util.AttributeSet, int);
+  }
+
+  public class AppCompatSeekBar extends android.widget.SeekBar {
+    ctor public AppCompatSeekBar(android.content.Context);
+    ctor public AppCompatSeekBar(android.content.Context, android.util.AttributeSet);
+    ctor public AppCompatSeekBar(android.content.Context, android.util.AttributeSet, int);
   }
 
   public class AppCompatSpinner extends android.widget.Spinner {
@@ -1834,6 +1886,7 @@ package android.support.v7.widget {
     method public void setSoftInputMode(int);
     method public void setVerticalOffset(int);
     method public void setWidth(int);
+    method public void setWindowLayoutType(int);
     method public void show();
     field public static final int INPUT_METHOD_FROM_FOCUSABLE = 0; // 0x0
     field public static final int INPUT_METHOD_NEEDED = 1; // 0x1
